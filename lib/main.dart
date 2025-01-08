@@ -11,6 +11,8 @@ void main() {
                 style: TextStyle(fontSize: 24, color: Colors.white))),
         body: GradientContainer(const Color.fromARGB(255, 33, 5, 107),
             const Color.fromARGB(255, 68, 21, 147)),
+
+        //body: GradientContainer.purple(),
       ),
     ),
   );
